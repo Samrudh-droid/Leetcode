@@ -37,4 +37,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Samrudh-droid/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->

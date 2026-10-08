@@ -10,33 +10,36 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        // Create a dummy head node to anchor the result list
+        // Create a dummy head node to simplify list assembly
         ListNode dummyHead = new ListNode(0);
-        ListNode curr = dummyHead;
+        ListNode current = dummyHead;
         int carry = 0;
 
-        // Continue looping if there are nodes left in l1 OR l2, OR if there's a leftover carry
+        // Traverse through both lists until both are empty and no carry remains
         while (l1 != null || l2 != null || carry != 0) {
-            // Extract values, default to 0 if the list has reached the end
-            int x = (l1 != null) ? l1.val : 0;
-            int y = (l2 != null) ? l2.val : 0;
+            int sum = carry;
 
-            // Calculate the total sum for the current position
-            int sum = x + y + carry;
-            
-            // Update carry for the next position
+            // Add value from list 1 if it exists
+            if (l1 != null) {
+                sum += l1.val;
+                l1 = l1.next;
+            }
+
+            // Add value from list 2 if it exists
+            if (l2 != null) {
+                sum += l2.val;
+                l2 = l2.next;
+            }
+
+            // Calculate new carry and the single digit value for the current node
             carry = sum / 10;
+            current.next = new ListNode(sum % 10);
             
-            // Create a new node with the single-digit value and link it
-            curr.next = new ListNode(sum % 10);
-            curr = curr.next;
-
-            // Move to the next nodes in the input lists if available
-            if (l1 != null) l1 = l1.next;
-            if (l2 != null) l2 = l2.next;
+            // Advance the pointer
+            current = current.next;
         }
 
-        // Return the actual head of the result list (skipping the dummy node)
+        // Return the actual head of the resultant linked list
         return dummyHead.next;
     }
 }

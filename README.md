@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/Samrudh-droid/Leetcode/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/Samrudh-droid/Leetcode/tree/main/0231-power-of-two/) | Easy |
 | [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/Samrudh-droid/Leetcode/tree/main/1342-number-of-steps-to-reduce-a-number-to-zero/) | Easy |
 ## Recursion
@@ -41,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/0001-two-sum) |
+| [0136-single-number](https://github.com/Samrudh-droid/Leetcode/tree/master/0136-single-number) |
 ## Hash Table
 |  |
 | ------- |

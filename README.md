@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/0001-two-sum) |
 | [0053-maximum-subarray](https://github.com/Samrudh-droid/Leetcode/tree/master/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/Samrudh-droid/Leetcode/tree/master/0136-single-number) |
+| [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 ## Hash Table
 |  |
 | ------- |
@@ -56,4 +57,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Samrudh-droid/Leetcode/tree/master/0053-maximum-subarray) |
+## Prefix Sum
+|  |
+| ------- |
+| [1413-minimum-value-to-get-positive-step-by-step-sum](https://github.com/Samrudh-droid/Leetcode/tree/master/1413-minimum-value-to-get-positive-step-by-step-sum) |
 <!---LeetCode Topics End-->
